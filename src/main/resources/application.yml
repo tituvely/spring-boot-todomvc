@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:h2:file:~/spring-boot-sample
+    driver-class-name: org.h2.Driver
+    username: spring-boot
+    password: sample
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    generate-ddl: true
